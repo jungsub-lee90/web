@@ -1,0 +1,6 @@
+// pybo 라는 이름의 .py 파일을 초기 flask run에서 불러온다
+export FLASK_APP=pybo
+// 디버그 사용 시에는 변경 저장시 자동으로 서비스 재실행
+export FLASK_DEBUG=true
+// 아래 경로의 activate 파일 실행
+source ./pybo_env/bin/activate
